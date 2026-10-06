@@ -1,0 +1,26 @@
+{
+    "name": "Muse Code CLI",
+    "id": "muse-code",
+    "version": "1.0.0",
+    "description": "Installs Meta's Muse Code CLI (muse) for the remote user and recommends the Helicon extension, an unofficial Muse Code GUI for VS Code.",
+    "documentationURL": "https://github.com/HarjjotSinghh/devcontainer-features#muse-code",
+    "licenseURL": "https://github.com/HarjjotSinghh/devcontainer-features/blob/main/LICENSE",
+    "keywords": [
+        "muse",
+        "muse-code",
+        "meta",
+        "ai",
+        "cli",
+        "helicon"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "harjjotsinghh.helicon"
+            ]
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
